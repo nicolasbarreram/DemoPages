@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoPages.DemoNavigation"
+             Title="Navegacion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Esta es una pagina de navegacion"
+                   VerticalOptions="CenterAndExpand"
+                   XAlign="Center"
+                   />
+            <Button 
+                    Text="Pagina 2"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="PaleTurquoise"
+                    VerticalOptions="EndAndExpand"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
